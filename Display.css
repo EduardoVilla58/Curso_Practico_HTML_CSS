@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif
+}
+.Cabecera{
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    margin: 10px;
+}
+.Menu_Navegacion ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Menu_Navegacion ul li{
+    list-style: none;
+    margin: 10px;
+}
+.Menu_Navegacion ul li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+}
+.Menu_Navegacion ul li a figure{
+    width: 20px;
+    height: 20px;
+}
+.Menu_Navegacion ul li a figure img{
+    width: 100%;
+    height: 100%;
+}
+.Logo_Gmail{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Logo_Gmail a{
+    font-weight: bold;
+    color: white !important;
+}
+.Contenedor_Principal{
+    width: 100%;
+    height: 77vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Imagen_Inicial{
+    display: flex;
+    justify-content: center;
+}
+.Imagen_Inicial figure{
+    width: 400px;
+    height: 150px;
+}
+.Imagen_Inicial figure img{
+    width: 100%;
+    height: 100%;
+}
+.Barra_Busqueda{
+    width: 680px;
+    height: 50px;
+    margin: 10px;
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    padding: 0px 20px;
+    box-shadow: 5px 5px 10px gray
+}
+.Barra_Busqueda nav{
+    width: 100%;
+    height: 50px;
+}
+.Barra_Busqueda ul{
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.Barra_Busqueda img{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+.Barra_Busqueda li{
+    list-style: none;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.Barra_Busqueda input{
+    width: 500px;
+    height: 50px;
+    font-size: 2.0rem;
+    outline: none;
+}
+.Botones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Botones div button{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.0rem;
+    margin: 0px 10px;
+    border-radius: 10px;
+    height: 40px;
+}
+.Botones div p{
+    font-size: 1.4rem;
+}
+.Botones div a{
+    font-size: 1.4rem;
+    color: blue;
+}
+.Textos{
+    display: flex;
+    flex-direction: row;
+}
+.Texto_Pais p{
+    color: grey;
+    font-size: 1.6rem;
+    position: relative;
+    top: 186px;
+    left: -610px;
+}
+.Pie_Pagina{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.Pie_Pagina li{
+    list-style: none;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.Pie_Pagina a{
+    display: flex;
+    color: grey;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+.Pie_Pagina ul{
+    display: flex;
+    flex-direction: row;
+}
